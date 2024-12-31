@@ -1,0 +1,119 @@
+/* Container */
+.details-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .language-tags{
+    padding: 5px 15px;
+    background-color: #e8f5e9;
+    color: #4caf50;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin: 10px;
+    color: black;
+  }
+
+  .logo{
+    width: 40%;
+    cursor: pointer;
+  }
+  
+  /* Left Section */
+  .details-left {
+    flex: 2;
+  }
+  
+  /* Right Section */
+  .details-right {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About Section */
+  .about-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .follow-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Specialization Section */
+  .specializations span {
+    padding: 5px 15px;
+    background-color: #e8f5e9;
+    color: #4caf50;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin: 10px;
+  }
+
+  /* Concerns Section */
+  .concerns span {
+    padding: 5px 15px;
+    background-color: #e8f5e9;
+    color: #4caf50;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin: 10px;
+  }
+  
+  
+  /* Appointment Section */
+  .appointment-section {
+    width: 105%;
+    padding: 10px;
+  }
+  
+  .session-options button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #4caf50;
+    background-color: #fff;
+    color: #4caf50;
+    border-radius: 5px;
+  }
+  
+  .session-options .active {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .time-slots .date-tabs span {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  /* .time-slots .date-tabs .active {
+    background-color: #4caf50;
+    color: #fff;
+  } */
+  
+  .make-appointment-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  

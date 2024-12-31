@@ -1,0 +1,103 @@
+/* Container */
+.reviews-container {
+    width: 690px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Experience Section */
+  .experience-section h3 {
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .experience-summary {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .experience-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience-section li {
+    margin-bottom: 15px;
+  }
+  
+  .experience-section li strong {
+    font-size: 16px;
+  }
+  
+  .experience-section li span {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* Reviews Section */
+  .reviews-section h3 {
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .reviewer-avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .reviewer-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .reviewer-consulted {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .review-date {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .review-body {
+    margin-top: 10px;
+  }
+  
+  .review-rating {
+    color: #ffd700;
+    font-size: 18px;
+  }
+  
+  .review-body p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  

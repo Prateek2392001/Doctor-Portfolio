@@ -1,0 +1,113 @@
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdf9f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  /* Header Styling */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-image:  url("/public/image.png");
+  
+  }
+  
+  /* Profile Image */
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4caf50;
+    margin-right: 20px;
+  }
+  
+  /* Profile Details */
+  .profile-details {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .doctor-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .verified-badge {
+    font-size: 1rem;
+    color: #4caf50;
+    margin-left: 5px;
+  }
+  
+  .doctor-specialty {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .rating {
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .rating-value {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #4caf50;
+  }
+  
+  .rating-stars {
+    color: #ffcc00;
+  }
+  
+  /* Profile Stats */
+  .profile-stats {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 80px;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat-value {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .stat-label {
+    font-size: 1.3rem;
+    color: #666;
+  }
+  
+  /* Book Appointment Button */
+  .book-appointment-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-appointment-button:hover {
+    background-color: black;
+  }
+  
