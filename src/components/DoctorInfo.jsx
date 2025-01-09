@@ -1,24 +1,3 @@
-// import React from "react";
-
-// const DoctorInfo = () => {
-//   return (
-//     <section className="doctor-info">
-//       <img src="/public/prateek.jpg" alt="Dr. Bruce Willis" />
-//       <div>
-//         <div>
-//           <h1>Prateek srivastava</h1>
-//           <p>FullStack Developer</p>
-//         </div>
-//         <div>
-//           <span>Followers: 850</span>
-//           <span>Following: 18K</span>
-//           <span>Fans: 250</span>
-//         </div>
-//         <button>Book an Appointment</button>
-//       </div>
-//     </section>
-//   );
-// };
 
 // export default DoctorInfo;
 import React from "react";
@@ -29,7 +8,7 @@ const DoctorProfile = () => {
     <div className="profile-container d-flex flex-column">
       <div className="profile-header">
         <img
-          src="/public/prateek.jpg" // Replace with the actual image URL
+          src="/public/vite.svg"
           alt="Dr. Bruce Willis"
           className="profile-image"
         />

@@ -1,18 +1,20 @@
 import React from "react";
 import Header from "./components/Header";
-import DoctorInfo from "./components/DoctorInfo";
-import DoctorDetails from "./components/DoctorDetails";
-import DoctorReviews from "./components/DoctorReviews";
+import ExpeertSession from "./components/ExpeertSession";
+// import DoctorInfo from "./components/DoctorInfo";
+// import DoctorDetails from "./components/DoctorDetails";
+// import DoctorReviews from "./components/DoctorReviews";
 
 const App = () => {
   return (
-    <div>
+    <div className="">
       <Header />
-      <main>
+      <ExpeertSession />
+      {/* <main>
         <DoctorInfo />
         <DoctorDetails />
         <DoctorReviews />
-      </main>
+      </main> */}
     </div>
   );
 };

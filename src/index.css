@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Roboto";
 }
 
 h1 {
@@ -71,7 +72,7 @@ button:focus-visible {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 
@@ -90,7 +91,7 @@ body {
   padding: 1rem 2rem;
   background-color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-image:  url("/public/Rectangle\ 3464777.png");
+  background-image:  url("/Rectangle 3464777.png");
 
 }
 
