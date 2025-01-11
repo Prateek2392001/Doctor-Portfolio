@@ -14,8 +14,8 @@
   .profile-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    /* width: 100%; */
+    justify-content: space-around;
+    width: 100%;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
@@ -40,8 +40,8 @@
   }
   
   .doctor-name {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 500;
     color: #333;
   }
   
@@ -58,7 +58,7 @@
   
   .rating {
     margin-top: 5px;
-    font-size: 1rem;
+    font-size: 18px;
   }
   
   .rating-value {
@@ -86,13 +86,13 @@
   }
   
   .stat-value {
-    font-size: 1.7rem;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
     color: #333;
   }
   
   .stat-label {
-    font-size: 1.3rem;
+    font-size: 18px;
     color: #666;
   }
   
@@ -102,7 +102,7 @@
     color: #fff;
     border: none;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;

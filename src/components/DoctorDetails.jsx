@@ -10,10 +10,10 @@ const DoctorDetails = () => {
         <div className="card p-3 m-2">
           <div className="about-section">
             <div className="about-header">
-              <h2>A Little About Me</h2>
+              <h4>A Little About Me</h4>
               <button className="follow-button">Follow +</button>
             </div>
-            <p>
+            <p >
               Hello! I am Dr. Bruce Willis, a Gynaecologist in Sanjivni Hospital
               Surat. I love to work with all my hospital staff and senior
               doctors. Completed my graduation in Gynaecologist Medicine from
@@ -25,7 +25,7 @@ const DoctorDetails = () => {
         <div className="card p-3 m-2">
           <div className="languages d-flex flex-row justify-content-start m-1">
             <div className="languages-heading mt-1">
-              <h2>Language Spoken</h2>
+              <h5>Language Spoken</h5>
             </div>
             <div className="language-tags mt-3">
               <span className="m-3">English</span>
@@ -39,7 +39,7 @@ const DoctorDetails = () => {
         {/* Specialization Section */}
         <div className="card p-3 m-2">
           <div className="specialization-section pt-4">
-            <h3>I Specialize In</h3>
+            <h5>I Specialize In</h5>
             <div className="specializations pt-3">
               <span>Women's Health</span>
               <span>Skin Care</span>
@@ -53,7 +53,7 @@ const DoctorDetails = () => {
         {/* Concerns Section */}
         <div className="card p-3 m-2">
           <div className="concerns-section  pt-3">
-            <h3>The Concerns I Treat</h3>
+            <h5>The Concerns I Treat</h5>
             <div className="concerns">
               <span>Skin Treatment</span>
               <span>Pregnancy</span>
@@ -69,7 +69,7 @@ const DoctorDetails = () => {
         {/* Experience Section */}
         <div className="card p-3 m-2">
           <div className="experience-section pt-4">
-            <h3>My Work Experience</h3>
+            <h5>My Work Experience</h5>
             <p className="experience-summary">
               I HAVE BEEN IN PRACTICE FOR : <strong>7+ YEARS</strong>
             </p>
@@ -93,7 +93,7 @@ const DoctorDetails = () => {
         {/* Appointment Section */}
 
         <div className="appointment-section">
-          <h3>Appointment Fee</h3>
+          <h5>Appointment Fee</h5>
           <p className="fee">
             <strong>₹699.00</strong>
           </p>
@@ -116,7 +116,7 @@ const DoctorDetails = () => {
               <span>10 Mins</span>
             </button>
           </div>
-          <h4>Pick a time slot</h4>
+          <h5>Pick a time slot</h5>
           <div className="time-slots">
             <div className="date-tabs">
               <span className="active">
@@ -137,7 +137,7 @@ const DoctorDetails = () => {
             </div>
             <div className="time-slots">
               <div className="date-tabs">
-                <h4>Morning</h4>
+                <h6>Morning</h6>
                 <span className="active">09:00 AM</span>
 
                 <span>09:30 AM</span>
@@ -147,7 +147,7 @@ const DoctorDetails = () => {
               </div>
               <div className="time-slots">
                 <div className="date-tabs">
-                  <h4>Evening</h4>
+                  <h6>Evening</h6>
                   <span className="active">04:00 PM</span>
                   <span>04:15 PM</span>
                   <span>04:30 PM</span>

@@ -2,10 +2,11 @@
 .details-container {
     display: flex;
     gap: 20px;
-    max-width: 1200px;
+    min-width: fit-content;
     margin: 20px auto;
     padding: 20px;
     background-color: #f8f9fa;
+    font-family: sans-serif;
     border-radius: 10px ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -19,8 +20,15 @@
     color: black;
   }
 
+  @media only screen and (min-width:768px) {
+    .logo{
+      width: 30px;
+      cursor: pointer;
+    }
+    
+  }
   .logo{
-    width: 40%;
+    width: 150px;
     cursor: pointer;
   }
   

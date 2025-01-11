@@ -3,10 +3,13 @@ import Card from "react-bootstrap/Card";
 import { FaUserMd, FaVideo, FaCommentDots } from "react-icons/fa";
 import React from "react";
 import "./ExpeertSession.css";
+import Header from "./Header";
 
 const ExpeertSession = () => {
+  
   return (
     <>
+    <Header />
       <div className="containers">
         <div className="bg-image">
           <div className="row">

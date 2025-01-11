@@ -12,10 +12,10 @@ const DoctorReviews = () => {
             <div className="review-header">
               <div className="reviewer-info">
                 <img
-                  src="https://via.placeholder.com/50"
+                  src="/Frame 2608514.png"
                   alt="Alicent Hightower"
                   className="reviewer-avatar"
-                />
+                  />
                 <div>
                   <p className="reviewer-name">Alicent Hightower</p>
                   <p className="reviewer-consulted">Consulted for Skin Care</p>
@@ -37,7 +37,7 @@ const DoctorReviews = () => {
             <div className="review-header">
               <div className="reviewer-info">
                 <img
-                  src="https://via.placeholder.com/50"
+                  src="/Frame 2608514.png"
                   alt="Alicent Hightower"
                   className="reviewer-avatar"
                 />
